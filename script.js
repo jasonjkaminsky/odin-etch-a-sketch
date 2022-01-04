@@ -37,7 +37,9 @@ function makeNewGrid(rows) {
       event.target.style.backgroundColor = "black";
     });
     newGrid.addEventListener("mouseover", function (event) {
-      event.target.style.backgroundColor = "black";
+      if (event.buttons == 1) {
+        event.target.style.backgroundColor = "black";
+      }
     });
     container.appendChild(newGrid);
   }
