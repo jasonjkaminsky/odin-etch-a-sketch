@@ -49,7 +49,7 @@ function resetNew() {
   ///// #5 - prompt user for how many rows in new grid /////
   let rows = prompt("Choose number of rows ( 5 - 100 ) for new box");
   console.log(rows);
-  if (isNan(rows) || rows === null) {
+  if (isNaN(rows) || rows === null) {
     return;
   }
   while (rows < 5 || rows > 100) {
