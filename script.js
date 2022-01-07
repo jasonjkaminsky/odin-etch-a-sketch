@@ -1,8 +1,8 @@
 const container = document.querySelector(".container");
-const shakeButton = document.querySelector(".shakeButton");
+const newGridButton = document.querySelector(".newGridButton");
 
 ///// #2 - Sets up event listener when Shake button clicked /////
-shakeButton.addEventListener("click", resetNew);
+newGridButton.addEventListener("click", resetNew);
 
 ///// #1 - Makes 16 x 16 default grid /////
 function makeDefaultGrid() {

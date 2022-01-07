@@ -52,7 +52,13 @@ body {
   border: 1px solid rgb(190, 188, 188);
 }
 
-.shakeButton {
+.buttons {
+  display: flex;
+}
+
+.grey-scale,
+.rainbow,
+.newGridButton {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -65,7 +71,9 @@ body {
   border-radius: 8px;
 }
 
-.shakeButton:hover {
+.grey-Scale,
+.rainbow,
+.newGridButton:hover {
   background-color: white;
   font-weight: bold;
   border: 5px solid #fff700;
