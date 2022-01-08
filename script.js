@@ -1,12 +1,16 @@
 const container = document.querySelector(".container");
+const greyScaleButton = document.querySelector(".greyScaleButton");
+const rainbowButton = document.querySelector(".rainbowButton");
 const newGridButton = document.querySelector(".newGridButton");
 
 ///// #2 - Sets up event listener when Shake button clicked /////
+// greyScaleButtonadd.EventListener("click",
+// rainbowButton.addEventListener("click",
 newGridButton.addEventListener("click", resetNew);
 
 ///// #1 - Makes 16 x 16 default grid /////
 function makeDefaultGrid() {
-  for (i = 0; i <= 255; i++) {
+  for (i = 0; i <= 399; i++) {
     let defaultGrid = document.createElement("div");
     defaultGrid.classList.add("defaultGrid");
     defaultGrid.addEventListener("mousedown", function (event) {
