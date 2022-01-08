@@ -4,8 +4,8 @@ const rainbowButton = document.querySelector(".rainbowButton");
 const newGridButton = document.querySelector(".newGridButton");
 
 ///// #2 - Sets up event listener when Shake button clicked /////
-// greyScaleButtonadd.EventListener("click",
-// rainbowButton.addEventListener("click",
+greyScaleButtonadd.EventListener("click",
+rainbowButton.addEventListener("click",
 newGridButton.addEventListener("click", resetNew);
 
 ///// #1 - Makes 16 x 16 default grid /////
